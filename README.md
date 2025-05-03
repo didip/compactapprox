@@ -102,12 +102,13 @@ compactapproximator/
 ├── LICENSE
 ├── go.mod
 ├── README.md
+├── .github/workflows/test.yml
 ├── approx/
-│   ├── compact_approximator.go
-│   └── compact_approximator_test.go
+│   ├── approx.go
+│   └── approx_test.go
 └── examples/
-    ├── basic_usage.go
-    └── sensor_usage.go
+    ├── basic/main.go
+    └── sensor/main.go
 ```
 
 ---
